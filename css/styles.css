@@ -69,6 +69,9 @@ h6 {
 /*  Header section studio/portfolio */
 
 .header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   background-color: #ffffff;
 }
 
@@ -100,12 +103,6 @@ h6 {
   display: flex;
   gap: 50px;
   margin: 0;
-}
-
-.link-hight {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-link-color,
@@ -153,16 +150,23 @@ h6 {
   color: var(--grey-txt-cl);
 }
 
+.line {
+  display: block;
+  width: 1600px;
+  height: 0;
+  background-color: #2f303a;
+}
+
 /* Main section studio/portfolio */
 
 .main-section-first {
   background-color: var(--dark-bg-cl);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-container {
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .main-title-top {
@@ -199,15 +203,18 @@ h6 {
   color: var(--blue-bg-cl);
 }
 
-.main-section-second,
-.section-portfolio,
-.main-section-third {
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
   background-color: var(--additional-bg-cl);
 }
 
-.main-container-second {
+.main-section-second {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background-color: var(--additional-bg-cl);
 }
 
 .main-description {
@@ -215,11 +222,6 @@ h6 {
   gap: 30px;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.main-container-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container-list {
@@ -273,8 +275,10 @@ h6 {
   color: var(--grey-txt-cl);
 }
 
-.main-container-third {
+.main-section-third {
   padding-bottom: 94px;
+
+  background-color: var(--additional-bg-cl);
 }
 
 .main-title-about {
@@ -302,12 +306,10 @@ h6 {
 }
 
 .main-section-team {
-  background-color: var(--additional-bg-cl);
-}
-
-.main-container-team {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  background-color: var(--additional-bg-cl);
 }
 
 .team-list {
@@ -357,7 +359,15 @@ h6 {
 }
 
 .visually-hiden {
-  visibility: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .btn-portfolio-color {
