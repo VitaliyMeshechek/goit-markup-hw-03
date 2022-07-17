@@ -422,6 +422,11 @@ p {
   border-radius: 4px; 
 }
 
+.clients-item:hover,
+.clients-item:focus {
+  color: #2196f3;
+}
+
 .clients-link {
   display: flex;
   color: #AFB1B8;
@@ -436,11 +441,6 @@ p {
 
 .clients-link:hover, 
 .clients-link:focus {
-  color: #2196f3;
-}
-
-.clients-item:hover,
-.clients-item:focus {
   color: #2196f3;
 }
 
@@ -530,13 +530,9 @@ p {
 .footer-container {
   display: flex;
   align-items: baseline;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 
 .footer-web {
-  margin-bottom: 20px;
   font-family: var(--secondary-font);
   font-size: 26px;
   letter-spacing: 0.03em;
@@ -551,9 +547,6 @@ p {
   display: flex;
   margin-right: 70px;
   flex-direction: column;
-
-  outline: 2px solid blue;
-  outline-offset: -2px;
 }
 
 /* Socials icon */
@@ -598,9 +591,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-
-  outline: 2px solid blue;
-  outline-offset: -2px;
 }
 
 .footer-title {
